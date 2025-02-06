@@ -152,7 +152,7 @@ class _NavBarPageState extends State<NavBarPage> {
           ),
           BottomNavigationBarItem(
             icon: Icon(
-              Icons.checklist_sharp,
+              Icons.check_circle_outline_outlined,
               size: 30.0,
             ),
             label: 'Home',
