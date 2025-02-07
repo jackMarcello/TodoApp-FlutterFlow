@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "title": { "type": "string" },
+    "details": { "type": "string" },
+    "completed": { "type": "boolean" },
+    "created": { "type": "string", "format": "date-time" },
+    "user": { "type": "string", "pattern": "^/users/[a-zA-Z0-9]+$" }
+  },
+  "required": ["title", "completed", "created", "user"]
+}
